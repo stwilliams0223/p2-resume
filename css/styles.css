@@ -1,15 +1,324 @@
 /* Your Website Styles */
-body {
-	background: #eee;
+
+
+
+}
+
+/*body styles*/
+
+body{
+
+	
+	font-size: 14px;
+	color: #404040;
+	margin: 10px;
+	background: url("../img/square_bg.png") #29A9FF;
+}
+
+header{
+
+position: absolute; 
+
+
+}
+
+/*header tag styles*/
+
+h1{
+	
+	color: #E00083;
+
 }
 
 
-div {
-	margin-top: -60px;	x 
+h2{
+
+color: black;
+font-size:30px;
+font-family: 'Rock Salt', sans-serif;
+
+}
+
+h3{
+
+	color:crimson;
+
+}
+
+h4{
+
+font-size:20px;
+
+}
+
+/*anchor tag styles*/
+
+
+a:link, a:visited { 
+    color: #E6005C;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:link:active,  { 
+    color: white;
+
+}
+
+a:hover{
+	color:#0099FF;
+
+}
+
+
+/*Moer element styling*/
+
+p{
+
+	line-height: 36px;
+
+}
+	
+
+nav {
+	text-align: center;
+	font-size: 17px;
+	color: teal;
+	position: fixed;
+	background: url("../img/bg.png") gray;
+	width:100%;
+	top:left;
+	border-radius: 0 0 20px 20px;
+	vertical-align: middle;
+	font-family: 'Rock Salt', sans-serif;
+
+
+}
+
+
+
+nav a:link { 
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+
+}
+
+nav a:visited{
+
+	color: black;
+    text-decoration: none;
+    cursor: auto;
+
+}
+
+nav a:link:active,  { 
+    color: black;
+}
+
+nav a:hover{
+
+color: yellow;
+
+}
+
+
+.nav1 a:hover{
+
+color:#0099FF;
+
+
+
+}
+
+.nav2 a:hover{
+
+color:gold;
+
+
+}
+
+.nav3 a:hover{
+
+color:crimson;
+
+
+}
+
+.nav4 a:hover{
+
+color:lime;
+
+
+}
+
+
+
+/*Some code below found on http://w3schools.com actual website structure*/
+
+/*Id styles*/
+
+#logo{
+
+	text-align: center;
+	color: #0099FF;
+	font-family: 'Rock Salt', sans-serif;
+	font-size:40px;
+	margin: 10px;
+
+}
+
+
+
+#page {
+max-width: 1000px;
+min-width: 320px;
+float: left;
+margin-left: 10px;
+margin-top: 0px;
+margin-right:10px;
+margin-bottom:10px;
+padding-top: 0px;
+padding-bottom: 20px;
+box-shadow: 0px 0px 20px 3px #d3d3d3;
+border-radius: 4px;
+background: #ffffff;
+
+
+}
+
+#container{
+
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	color: #404040;
+	margin: 0px;
+	background: url("../img/dark_wood.png") #29A9FF;
+
+
+/*Below CSS code copied from http://stackoverflow.com/questions/114543/how-to-horizontally-center-a-div-in-a-div*/
+
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#content{
+
+padding:30px;
+max-width: 1000px;
+min-width: 320px;
+margin-top: 100px;
+
+
 }
 
 
 /* Show Grid */
+
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+
+
+/*Class styles*/
+
+.subhead {
+
+font-style:italic;
+margin-left: 30px;
+
+}
+
+.main {
+max-width: 1000px;
+min-width: 320px;
+float: left;
+overflow: hidden;
+
+}
+
+.headerimg{
+
+margin-top: 100px
+
+
+}
+
+.menu{
+
+margin:40px 20px 10px 0;
+
+}
+
+#title_cust1{
+
+background-color: #0099FF;
+border-radius: 3px 40px 3px 30px;
+box-shadow: 0px 0px 20px 3px #d3d3d3;
+
+
+}
+
+#title_cust2{
+
+background-color: gold;
+border-radius: 3px 40px 3px 30px;
+box-shadow: 0px 0px 20px 3px #d3d3d3;
+
+
+}
+
+#title_cust3{
+
+background-color: crimson;
+border-radius: 3px 40px 3px 30px;
+box-shadow: 0px 0px 20px 3px #d3d3d3;
+
+
+}
+
+#title_cust4{
+
+background-color: lime;
+border-radius: 3px 40px 3px 30px;
+box-shadow: 0px 0px 20px 3px #d3d3d3;
+
+
+}
+
+.tabs{
+
+background: url("../img/old_wall.png");
+border-radius: 3px 40px 3px 30px;
+box-shadow: 0px 0px 20px 3px #000000;
+margin-top:20px;
+
+
+}
+
+
+/*blockquote*/
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #0099FF;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+  display: inline;
+}
+
+
+
+
+
+
+
