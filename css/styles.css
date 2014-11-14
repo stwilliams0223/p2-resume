@@ -35,7 +35,8 @@ h2{
 
 color: black;
 font-size:30px;
-font-family: 'Rock Salt', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 300;
 
 }
 
@@ -55,7 +56,7 @@ font-size:20px;
 
 
 a:link, a:visited { 
-    color: #E6005C;
+    color: crimson;
     text-decoration: none;
     cursor: auto;
 }
@@ -163,8 +164,8 @@ color:lime;
 
 	text-align: center;
 	color: white;
-	font-family: 'Rock Salt', sans-serif;
-	font-size:35px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:55px;
 	margin: 0 auto;
 	background: red;
 	opacity: 0.7;
@@ -188,7 +189,7 @@ margin-right:10px;
 margin-bottom:10px;
 padding-top: 0px;
 padding-bottom: 20px;
-box-shadow: 0px 0px 20px 3px #d3d3d3;
+box-shadow: 10px 5px 20px 0px #d3d3d3;
 border-radius: 4px;
 background: url("../img/whitey.png") #F2F2F2;
 
@@ -266,36 +267,64 @@ margin:40px 20px 10px 0;
 
 #title_cust1{
 
-background-color: #0099FF;
-border-radius: 3px 40px 3px 30px;
+background-color: black;
+border-radius: 3px 40px 40px 3px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
+color: #3399FF;
+padding-left: 20px;
+margin-left:-30px;
+background: -webkit-linear-gradient(left, black , #3399FF); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, black, #3399FF); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, black, #3399FF); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, black , #3399FF); /* Standard syntax */
 
 
 }
 
 #title_cust2{
 
-background-color: gold;
-border-radius: 3px 40px 3px 30px;
+background-color: black;
+border-radius: 3px 40px 40px 3px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
+color: lime;
+padding-left: 20px;
+margin-left:-30px;
+background: -webkit-linear-gradient(left, black , lime); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, black, lime); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, black, lime); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, black , lime); /* Standard syntax */
 
 
 }
 
 #title_cust3{
 
-background-color: crimson;
-border-radius: 3px 40px 3px 30px;
+background-color: black;
+border-radius: 3px 40px 40px 3px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
+color: crimson;
+padding-left: 20px;
+margin-left:-30px;
+background: -webkit-linear-gradient(left, black , crimson); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, black, crimson); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, black, crimson); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, black , crimson); /* Standard syntax */
 
 
 }
 
 #title_cust4{
 
-background-color: lime;
-border-radius: 3px 40px 3px 30px;
+background-color: black;
+border-radius: 3px 40px 40px 3px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
+color: #FFD119;
+padding-left: 20px;
+margin-left:-30px;
+background: -webkit-linear-gradient(left, black , #FFD119); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, black, #FFD119); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, black, #FFD119); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, black , #FFD119); /* Standard syntax */
 
 
 }
