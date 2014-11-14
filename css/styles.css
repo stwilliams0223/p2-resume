@@ -33,10 +33,23 @@ h1{
 
 h2{
 
-color: black;
-font-size:30px;
+
+
+	width: 100%;
+	font-size: 2.5em;
+	font-weight: 300;
+	padding: 6px 20px 6px 70px;
+	margin: 30px 10px 10px -70px;
+	color: #555;
+	background-color: #999;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+
 font-family: 'Open Sans Condensed', sans-serif;
-font-weight: 300;
+
+
+
 
 }
 
@@ -72,7 +85,11 @@ a:hover{
 }
 
 
-/*Moer element styling*/
+/*More element styling*/
+
+ul {
+ list-style: none;
+}
 
 p{
 
@@ -273,59 +290,7 @@ box-shadow: 0px 0px 20px 3px #d3d3d3;
 color: #3399FF;
 padding-left: 20px;
 margin-left:-30px;
-background: -webkit-linear-gradient(left, black , #3399FF); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, black, #3399FF); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, black, #3399FF); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, black , #3399FF); /* Standard syntax */
-
-
-}
-
-#title_cust2{
-
-background-color: black;
-border-radius: 3px 40px 40px 3px;
-box-shadow: 0px 0px 20px 3px #d3d3d3;
-color: lime;
-padding-left: 20px;
-margin-left:-30px;
-background: -webkit-linear-gradient(left, black , lime); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, black, lime); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, black, lime); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, black , lime); /* Standard syntax */
-
-
-}
-
-#title_cust3{
-
-background-color: black;
-border-radius: 3px 40px 40px 3px;
-box-shadow: 0px 0px 20px 3px #d3d3d3;
-color: crimson;
-padding-left: 20px;
-margin-left:-30px;
-background: -webkit-linear-gradient(left, black , crimson); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, black, crimson); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, black, crimson); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, black , crimson); /* Standard syntax */
-
-
-}
-
-#title_cust4{
-
-background-color: black;
-border-radius: 3px 40px 40px 3px;
-box-shadow: 0px 0px 20px 3px #d3d3d3;
-color: #FFD119;
-padding-left: 20px;
-margin-left:-30px;
-background: -webkit-linear-gradient(left, black , #FFD119); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, black, #FFD119); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, black, #FFD119); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, black , #FFD119); /* Standard syntax */
-
+opacity: 0.3;
 
 }
 
