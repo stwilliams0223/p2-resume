@@ -1,10 +1,4 @@
-/* Your Website Styles */
-
-
-
-}
-
-/*body styles*/
+/*Body*/
 
 body{
 
@@ -12,7 +6,9 @@ body{
 	font-size: 14px;
 	color: #404040;
 	margin: 10px;
-	background: url("../img/square_bg.png") #29A9FF;
+	background: url("../img/bg1.png");
+
+	
 }
 
 header{
@@ -22,196 +18,174 @@ position: absolute;
 
 }
 
-/*header tag styles*/
+
+
+
+/*Title*/
+
 
 h1{
-	
-	color: #E00083;
+
+font-family: 'Orbitron', sans-serif;
+color: #272727;
+font-size: 8em;
+text-align: center;
+
+
+
 
 }
+
+/*Primary Header*/
 
 
 h2{
 
-
-
-color: black;
-font-size:30px;
-font-family: 'Open Sans Condensed', sans-serif;
-font-weight: 300;
+font-family: 'Russo One', sans-serif;
+color: #cfcfcf;
+font-size: 3em;
 
 }
+
+/*Secondary Header*/
+
 
 h3{
 
-	color:crimson;
+font-family: 'Russo One', sans-serif;
+color: #ff3054;
+font-size: 2em;
+
 
 }
 
-h4{
 
-font-size:20px;
+/*Body Text*/
+
+
+p{
+
+font-family: 'Numans', sans-serif;
+line-height: 1.5em;
+color: #4d4d4d;
+font-size: 1.1em;
 
 }
 
-/*anchor tag styles*/
+em{
 
+font-size: .8em;
 
-a:link, a:visited { 
-    color: crimson;
-    text-decoration: none;
-    cursor: auto;
 }
 
-a:link:active,  { 
+
+/*Links*/
+
+
+a:link, a:visited{
+
+
+
+text-decoration: none;
+color: #ff3054;
+cursor: auto;
+transition-property: background, color, opacity;
+	transition-duration: .5s;
+ 	transition-timing-function: linear;
+ 	cursor: pointer;
+
+}
+
+
+a:active,  { 
     color: white;
 
 }
 
 a:hover{
-	color:#0099FF;
-
-}
-
-
-/*More element styling*/
-
-ul {
- list-style: none;
-}
-
-p{
-
-	line-height: 36px;
-	font-family: 'Montserrat', sans-serif;
-
-
-}
-	
-
-nav {
-	text-align: center;
-	font-size: 17px;
-	color: teal;
-	position: fixed;
-	background: url("../img/bg.png") white;
-	width:100%;
-	height: 135px;
-	top:left;
-	border-radius: 0 0 20px 20px;
-	vertical-align: middle;
-	font-family: 'Rock Salt', sans-serif;
+	color:#3bff5c;
 
 
 }
 
 
+/* Layout for Style Tile*/
+/*section {
+	margin: 20px 0;
+}
 
-nav a:link { 
-    color: black;
-    text-decoration: none;
-    cursor: auto;
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}*/
+
+/*Color Palette*/
+
+/*.color-1{
+
+background: #cfcfcf;
 
 }
 
-nav a:visited{
-
-	color: black;
-    text-decoration: none;
-    cursor: auto;
-
-}
-
-nav a:link:active,  { 
-    color: black;
-}
-
-nav a:hover{
-
-color: yellow;
-
-}
+.color-2{
 
 
-.nav1 a:hover{
-
-color:#0099FF;
-
-
-
-}
-
-.nav2 a:hover{
-
-color:gold;
-
-
-}
-
-.nav3 a:hover{
-
-color:crimson;
-
-
-}
-
-.nav4 a:hover{
-
-color:lime;
-
+background: #3bff5c;
 
 }
 
 
+.color-3{
 
-/*Some code below found on http://w3schools.com actual website structure*/
+background: #ff3054;
 
-/*Id styles*/
+}*/
 
-#logo{
 
-	text-align: center;
-	color: white;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size:55px;
-	margin: 0 auto;
-	background: #3399FF;
-	opacity: 0.7;
-	width: 600px;
-	float: middle;
-	border-radius: 40px 40px 40px 40px;
-	box-shadow: 0px 0px 20px 3px #d3d3d3;
-	
+/*Textures*/
 
+/*.pattern-1{
+
+background: url("../img/wall.png")
+
+}
+
+.pattern-2{
+
+background: url("../img/pattern.png")
+
+}
+
+.pattern-3{
+
+background: url("../img/bg1.png")
+
+}*/
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
 }
 
 
 
-#page {
-max-width: 1000px;
-min-width: 320px;
-float: left;
-margin-left: 10px;
-margin-top: 0px;
-margin-right:10px;
-margin-bottom:10px;
-padding-top: 0px;
-padding-bottom: 20px;
-box-shadow: 10px 5px 20px 0px #d3d3d3;
-border-radius: 4px;
-background: url("../img/whitey.png") #F2F2F2;
-
-
-
-}
 
 #container{
 
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 14px;
 	color: #404040;
-	margin: 0px;
-	background: black;
+	margin: -30px;
+	background: url("../img/bg1.png");
+	border-radius: 10px 10px 10px 10px;
+
+
 
 
 /*Below CSS code copied from http://stackoverflow.com/questions/114543/how-to-horizontally-center-a-div-in-a-div*/
@@ -221,6 +195,25 @@ background: url("../img/whitey.png") #F2F2F2;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: auto;
+
+}
+
+#page {
+max-width: 100%;
+min-width: 32%;
+float: left;
+margin-left: 10px;
+margin-top: 0px;
+margin-right:10px;
+margin-bottom:10px;
+padding-top: 0px;
+padding-bottom: 20px;
+border-radius: 4px;
+background: #272727;
+height: auto;
+
+
 
 }
 
@@ -230,20 +223,42 @@ background: url("../img/whitey.png") #F2F2F2;
 padding:30px;
 max-width: 1000px;
 min-width: 320px;
-margin-top: 100px;
+margin-top: 275px;
+
+
+}
+
+.banner{
+
+background: #3bff5c;
+opacity: 0.8;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+
+
+
+}
+
+.type{
+
+margin-top:160px;
+text-align: center;
 
 
 }
 
 
-/* Show Grid */
+.main {
+max-width: 100%;
+min-width: 32%;
+float: left;
+overflow: hidden;
 
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
 }
 
-
-/*Class styles*/
 
 .subhead {
 
@@ -252,87 +267,50 @@ margin-left: 30px;
 
 }
 
-.main {
-max-width: 1000px;
-min-width: 320px;
-float: left;
-overflow: hidden;
-
-}
-
-.headerimg{
-
-margin-top: 100px
-
-
-}
-
-.menu{
-
-margin:40px 20px 10px 0;
-
-}
-
 #title_cust1{
 
-background-color: black;
+background: url("../img/pattern.png");
 border-radius: 3px 40px 40px 3px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
-color: black;
 padding-left: 20px;
 margin-left:-30px;
-background: -webkit-linear-gradient(left, white , #3399FF); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, white, #3399FF); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, white, #3399FF); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, white , #3399FF); /* Standard syntax */
+
 
 
 }
 
 #title_cust2{
 
-background-color: black;
+background: url("../img/pattern.png");
 border-radius: 3px 40px 40px 3px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
-color: lime;
 padding-left: 20px;
 margin-left:-30px;
-background: -webkit-linear-gradient(left, black , lime); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, black, lime); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, black, lime); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, black , lime); /* Standard syntax */
+
 
 
 }
 
 #title_cust3{
 
-background-color: black;
+background: url("../img/pattern.png");
 border-radius: 3px 40px 40px 3px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
-color: crimson;
 padding-left: 20px;
 margin-left:-30px;
-background: -webkit-linear-gradient(left, black , crimson); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, black, crimson); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, black, crimson); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, black , crimson); /* Standard syntax */
+
 
 
 }
 
 #title_cust4{
 
-background-color: black;
+background: url("../img/pattern.png");
 border-radius: 3px 40px 40px 3px;
 box-shadow: 0px 0px 20px 3px #d3d3d3;
-color: #FFD119;
 padding-left: 20px;
 margin-left:-30px;
-background: -webkit-linear-gradient(left, black , #FFD119); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(right, black, #FFD119); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(right, black, #FFD119); /* For Firefox 3.6 to 15 */
-background: linear-gradient(to right, black , #FFD119); /* Standard syntax */
+
 
 
 }
@@ -363,12 +341,12 @@ blockquote p {
   display: inline;
 }
 
-aside{
 
-
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
 }
 
-
-
-
-
+section {
+	margin: 20px 0;
+} 
